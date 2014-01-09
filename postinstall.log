@@ -1,0 +1,358 @@
+postinstall script started!
+12/04/13 07:12:40
+ERROR: This command can only be used by root.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+vim is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+OK
+Reading package lists...
+Building dependency tree...
+Reading state information...
+vim is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+OK
+Ign http://pkg.jenkins-ci.org binary/ InRelease
+Ign http://archive.ubuntu.com saucy InRelease
+Ign http://security.ubuntu.com saucy-security InRelease
+Get:1 http://pkg.jenkins-ci.org binary/ Release.gpg [198 B]
+Ign http://archive.ubuntu.com saucy-updates InRelease
+Get:2 http://security.ubuntu.com saucy-security Release.gpg [933 B]
+Get:3 http://security.ubuntu.com saucy-security Release [49.6 kB]
+Hit http://archive.ubuntu.com saucy Release.gpg
+Get:4 http://pkg.jenkins-ci.org binary/ Release [2,046 B]
+Get:5 http://archive.ubuntu.com saucy-updates Release.gpg [933 B]
+Get:6 http://pkg.jenkins-ci.org binary/ Packages [628 B]
+Hit http://archive.ubuntu.com saucy Release
+Get:7 http://archive.ubuntu.com saucy-updates Release [49.6 kB]
+Get:8 http://security.ubuntu.com saucy-security/main Sources [13.8 kB]
+Get:9 http://security.ubuntu.com saucy-security/universe Sources [6,794 B]
+Get:10 http://security.ubuntu.com saucy-security/main i386 Packages [40.8 kB]
+Get:11 http://archive.ubuntu.com saucy/main Sources [1,009 kB]
+Get:12 http://security.ubuntu.com saucy-security/universe i386 Packages [17.6 kB]
+Get:13 http://archive.ubuntu.com saucy/universe Sources [6,108 kB]
+Get:14 http://security.ubuntu.com saucy-security/main Translation-en [18.8 kB]
+Get:15 http://security.ubuntu.com saucy-security/universe Translation-en [10.9 kB]
+Ign http://pkg.jenkins-ci.org binary/ Translation-en_US
+Ign http://pkg.jenkins-ci.org binary/ Translation-en
+Hit http://archive.ubuntu.com saucy/main i386 Packages
+Hit http://archive.ubuntu.com saucy/universe i386 Packages
+Hit http://archive.ubuntu.com saucy/main Translation-en
+Ign http://security.ubuntu.com saucy-security/main Translation-en_US
+Hit http://archive.ubuntu.com saucy/universe Translation-en
+Ign http://security.ubuntu.com saucy-security/universe Translation-en_US
+Get:16 http://archive.ubuntu.com saucy-updates/main Sources [45.6 kB]
+Get:17 http://archive.ubuntu.com saucy-updates/universe Sources [18.5 kB]
+Get:18 http://archive.ubuntu.com saucy-updates/main i386 Packages [116 kB]
+Get:19 http://archive.ubuntu.com saucy-updates/universe i386 Packages [52.6 kB]
+Get:20 http://archive.ubuntu.com saucy-updates/main Translation-en [54.5 kB]
+Get:21 http://archive.ubuntu.com saucy-updates/universe Translation-en [29.4 kB]
+Ign http://archive.ubuntu.com saucy/main Translation-en_US
+Ign http://archive.ubuntu.com saucy/universe Translation-en_US
+Ign http://archive.ubuntu.com saucy-updates/main Translation-en_US
+Ign http://archive.ubuntu.com saucy-updates/universe Translation-en_US
+Fetched 7,646 kB in 26s (284 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  ca-certificates-java daemon default-jre-headless fontconfig-config
+  fonts-dejavu-core icedtea-7-jre-jamvm java-common libavahi-client3
+  libavahi-common-data libavahi-common3 libcups2 libfontconfig1 libjpeg-turbo8
+  libjpeg8 liblcms2-2 libnspr4 libnss3 libnss3-1d openjdk-7-jre-headless
+  openjdk-7-jre-lib ttf-dejavu-core tzdata-java
+Suggested packages:
+  default-jre equivs cups-common liblcms2-utils libnss-mdns sun-java6-fonts
+  fonts-dejavu-extra fonts-ipafont-gothic fonts-ipafont-mincho
+  ttf-wqy-microhei ttf-wqy-zenhei ttf-indic-fonts-core ttf-telugu-fonts
+  ttf-oriya-fonts ttf-kannada-fonts ttf-bengali-fonts
+The following NEW packages will be installed:
+  ca-certificates-java daemon default-jre-headless fontconfig-config
+  fonts-dejavu-core icedtea-7-jre-jamvm java-common jenkins libavahi-client3
+  libavahi-common-data libavahi-common3 libcups2 libfontconfig1 libjpeg-turbo8
+  libjpeg8 liblcms2-2 libnspr4 libnss3 libnss3-1d openjdk-7-jre-headless
+  openjdk-7-jre-lib ttf-dejavu-core tzdata-java
+0 upgraded, 23 newly installed, 0 to remove and 8 not upgraded.
+Need to get 107 MB of archives.
+After this operation, 140 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu/ saucy/main fonts-dejavu-core all 2.33+svn2514-3ubuntu1 [1,019 kB]
+Get:2 http://archive.ubuntu.com/ubuntu/ saucy/main ttf-dejavu-core all 2.33+svn2514-3ubuntu1 [2,964 B]
+Get:3 http://archive.ubuntu.com/ubuntu/ saucy/main fontconfig-config all 2.10.93-0ubuntu1 [50.5 kB]
+Get:4 http://archive.ubuntu.com/ubuntu/ saucy-updates/main libavahi-common-data i386 0.6.31-2ubuntu4.1 [22.4 kB]
+Get:5 http://archive.ubuntu.com/ubuntu/ saucy-updates/main libavahi-common3 i386 0.6.31-2ubuntu4.1 [25.8 kB]
+Get:6 http://archive.ubuntu.com/ubuntu/ saucy-updates/main libavahi-client3 i386 0.6.31-2ubuntu4.1 [29.5 kB]
+Get:7 http://archive.ubuntu.com/ubuntu/ saucy-updates/main libcups2 i386 1.7.0~rc1-0ubuntu5.1 [210 kB]
+Get:8 http://archive.ubuntu.com/ubuntu/ saucy/main libfontconfig1 i386 2.10.93-0ubuntu1 [142 kB]
+Get:9 http://archive.ubuntu.com/ubuntu/ saucy/main libjpeg-turbo8 i386 1.3.0-0ubuntu1 [128 kB]
+Get:10 http://archive.ubuntu.com/ubuntu/ saucy/main liblcms2-2 i386 2.5-0ubuntu1 [157 kB]
+Get:11 http://archive.ubuntu.com/ubuntu/ saucy/main libnspr4 i386 2:4.9.5-1ubuntu1 [136 kB]
+Get:12 http://archive.ubuntu.com/ubuntu/ saucy-updates/main libnss3 i386 2:3.15.3-0ubuntu0.13.10.1 [1,043 kB]
+Get:13 http://archive.ubuntu.com/ubuntu/ saucy/main openjdk-7-jre-lib all 7u25-2.3.12-4ubuntu3 [5,571 kB]
+Get:14 http://pkg.jenkins-ci.org/debian/ binary/ jenkins 1.542 [59.7 MB]
+Get:15 http://archive.ubuntu.com/ubuntu/ saucy/main java-common all 0.48ubuntu2 [134 kB]
+Get:16 http://archive.ubuntu.com/ubuntu/ saucy/main default-jre-headless i386 1:1.7-48ubuntu2 [3,258 B]
+Get:17 http://archive.ubuntu.com/ubuntu/ saucy/main ca-certificates-java all 20130815 [13.7 kB]
+Get:18 http://archive.ubuntu.com/ubuntu/ saucy/main tzdata-java all 2013g-0ubuntu1 [139 kB]
+Get:19 http://archive.ubuntu.com/ubuntu/ saucy/main libjpeg8 i386 8c-2ubuntu8 [2,188 B]
+Get:20 http://archive.ubuntu.com/ubuntu/ saucy-updates/main libnss3-1d i386 2:3.15.3-0ubuntu0.13.10.1 [12.4 kB]
+Get:21 http://archive.ubuntu.com/ubuntu/ saucy/main openjdk-7-jre-headless i386 7u25-2.3.12-4ubuntu3 [37.9 MB]
+Get:22 http://archive.ubuntu.com/ubuntu/ saucy/universe daemon i386 0.6.4-1 [83.3 kB]
+Get:23 http://archive.ubuntu.com/ubuntu/ saucy/main icedtea-7-jre-jamvm i386 7u25-2.3.12-4ubuntu3 [559 kB]
+Fetched 107 MB in 5min 19s (335 kB/s)
+Selecting previously unselected package fonts-dejavu-core.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 65604 files and directories currently installed.)
+Unpacking fonts-dejavu-core (from .../fonts-dejavu-core_2.33+svn2514-3ubuntu1_all.deb) ...
+Selecting previously unselected package ttf-dejavu-core.
+Unpacking ttf-dejavu-core (from .../ttf-dejavu-core_2.33+svn2514-3ubuntu1_all.deb) ...
+Selecting previously unselected package fontconfig-config.
+Unpacking fontconfig-config (from .../fontconfig-config_2.10.93-0ubuntu1_all.deb) ...
+Selecting previously unselected package libavahi-common-data:i386.
+Unpacking libavahi-common-data:i386 (from .../libavahi-common-data_0.6.31-2ubuntu4.1_i386.deb) ...
+Selecting previously unselected package libavahi-common3:i386.
+Unpacking libavahi-common3:i386 (from .../libavahi-common3_0.6.31-2ubuntu4.1_i386.deb) ...
+Selecting previously unselected package libavahi-client3:i386.
+Unpacking libavahi-client3:i386 (from .../libavahi-client3_0.6.31-2ubuntu4.1_i386.deb) ...
+Selecting previously unselected package libcups2:i386.
+Unpacking libcups2:i386 (from .../libcups2_1.7.0~rc1-0ubuntu5.1_i386.deb) ...
+Selecting previously unselected package libfontconfig1:i386.
+Unpacking libfontconfig1:i386 (from .../libfontconfig1_2.10.93-0ubuntu1_i386.deb) ...
+Selecting previously unselected package libjpeg-turbo8:i386.
+Unpacking libjpeg-turbo8:i386 (from .../libjpeg-turbo8_1.3.0-0ubuntu1_i386.deb) ...
+Selecting previously unselected package liblcms2-2:i386.
+Unpacking liblcms2-2:i386 (from .../liblcms2-2_2.5-0ubuntu1_i386.deb) ...
+Selecting previously unselected package libnspr4:i386.
+Unpacking libnspr4:i386 (from .../libnspr4_2%3a4.9.5-1ubuntu1_i386.deb) ...
+Selecting previously unselected package libnss3:i386.
+Unpacking libnss3:i386 (from .../libnss3_2%3a3.15.3-0ubuntu0.13.10.1_i386.deb) ...
+Selecting previously unselected package openjdk-7-jre-lib.
+Unpacking openjdk-7-jre-lib (from .../openjdk-7-jre-lib_7u25-2.3.12-4ubuntu3_all.deb) ...
+Selecting previously unselected package java-common.
+Unpacking java-common (from .../java-common_0.48ubuntu2_all.deb) ...
+Selecting previously unselected package default-jre-headless.
+Unpacking default-jre-headless (from .../default-jre-headless_1%3a1.7-48ubuntu2_i386.deb) ...
+Selecting previously unselected package ca-certificates-java.
+Unpacking ca-certificates-java (from .../ca-certificates-java_20130815_all.deb) ...
+Selecting previously unselected package tzdata-java.
+Unpacking tzdata-java (from .../tzdata-java_2013g-0ubuntu1_all.deb) ...
+Selecting previously unselected package libjpeg8:i386.
+Unpacking libjpeg8:i386 (from .../libjpeg8_8c-2ubuntu8_i386.deb) ...
+Selecting previously unselected package libnss3-1d:i386.
+Unpacking libnss3-1d:i386 (from .../libnss3-1d_2%3a3.15.3-0ubuntu0.13.10.1_i386.deb) ...
+Selecting previously unselected package openjdk-7-jre-headless:i386.
+Unpacking openjdk-7-jre-headless:i386 (from .../openjdk-7-jre-headless_7u25-2.3.12-4ubuntu3_i386.deb) ...
+Selecting previously unselected package daemon.
+Unpacking daemon (from .../daemon_0.6.4-1_i386.deb) ...
+Selecting previously unselected package icedtea-7-jre-jamvm:i386.
+Unpacking icedtea-7-jre-jamvm:i386 (from .../icedtea-7-jre-jamvm_7u25-2.3.12-4ubuntu3_i386.deb) ...
+Selecting previously unselected package jenkins.
+Unpacking jenkins (from .../archives/jenkins_1.542_all.deb) ...
+Processing triggers for man-db ...
+Processing triggers for ca-certificates ...
+Updating certificates in /etc/ssl/certs... 0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d....done.
+Processing triggers for ureadahead ...
+Setting up fonts-dejavu-core (2.33+svn2514-3ubuntu1) ...
+Setting up ttf-dejavu-core (2.33+svn2514-3ubuntu1) ...
+Setting up fontconfig-config (2.10.93-0ubuntu1) ...
+Setting up libavahi-common-data:i386 (0.6.31-2ubuntu4.1) ...
+Setting up libavahi-common3:i386 (0.6.31-2ubuntu4.1) ...
+Setting up libavahi-client3:i386 (0.6.31-2ubuntu4.1) ...
+Setting up libcups2:i386 (1.7.0~rc1-0ubuntu5.1) ...
+Setting up libfontconfig1:i386 (2.10.93-0ubuntu1) ...
+Setting up libjpeg-turbo8:i386 (1.3.0-0ubuntu1) ...
+Setting up liblcms2-2:i386 (2.5-0ubuntu1) ...
+Setting up libnspr4:i386 (2:4.9.5-1ubuntu1) ...
+Setting up libnss3:i386 (2:3.15.3-0ubuntu0.13.10.1) ...
+Setting up java-common (0.48ubuntu2) ...
+Setting up tzdata-java (2013g-0ubuntu1) ...
+Setting up libjpeg8:i386 (8c-2ubuntu8) ...
+Setting up libnss3-1d:i386 (2:3.15.3-0ubuntu0.13.10.1) ...
+Setting up daemon (0.6.4-1) ...
+Setting up openjdk-7-jre-lib (7u25-2.3.12-4ubuntu3) ...
+Setting up openjdk-7-jre-headless:i386 (7u25-2.3.12-4ubuntu3) ...
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/orbd to provide /usr/bin/orbd (orbd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/servertool to provide /usr/bin/servertool (servertool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/bin/tnameserv to provide /usr/bin/tnameserv (tnameserv) in auto mode
+update-alternatives: using /usr/lib/jvm/java-7-openjdk-i386/jre/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+Setting up default-jre-headless (1:1.7-48ubuntu2) ...
+Setting up icedtea-7-jre-jamvm:i386 (7u25-2.3.12-4ubuntu3) ...
+Setting up jenkins (1.542) ...
+Adding system user `jenkins' (UID 108) ...
+Adding new user `jenkins' (UID 108) with group `nogroup' ...
+Not creating home directory `/var/lib/jenkins'.
+ * Starting Jenkins Continuous Integration Server jenkins       [202G [196G[ OK ]
+Setting up ca-certificates-java (20130815) ...
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:Certigna.pem
+Adding debian:Camerfirma_Global_Chambersign_Root.pem
+Adding debian:VeriSign_Universal_Root_Certification_Authority.pem
+Adding debian:ACEDICOM_Root.pem
+Adding debian:CA_Disig.pem
+Adding debian:Cybertrust_Global_Root.pem
+Adding debian:TDC_Internet_Root_CA.pem
+Adding debian:TURKTRUST_Certificate_Services_Provider_Root_1.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:Comodo_AAA_Services_root.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:GeoTrust_Global_CA_2.pem
+Adding debian:NetLock_Business_=Class_B=_Root.pem
+Adding debian:Equifax_Secure_Global_eBusiness_CA.pem
+Adding debian:AddTrust_Public_Services_Root.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:Equifax_Secure_eBusiness_CA_2.pem
+Adding debian:A-Trust-nQual-03.pem
+Adding debian:ValiCert_Class_1_VA.pem
+Adding debian:TC_TrustCenter_Class_2_CA_II.pem
+Adding debian:ComSign_Secured_CA.pem
+Adding debian:StartCom_Certification_Authority_G2.pem
+Adding debian:thawte_Primary_Root_CA_-_G2.pem
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:Equifax_Secure_eBusiness_CA_1.pem
+Adding debian:TC_TrustCenter_Class_3_CA_II.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:Camerfirma_Chambers_of_Commerce_Root.pem
+Adding debian:Trustis_FPS_Root_CA.pem
+Adding debian:EE_Certification_Centre_Root_CA.pem
+Adding debian:Equifax_Secure_CA.pem
+Adding debian:Comodo_Secure_Services_root.pem
+Adding debian:Thawte_Premium_Server_CA.pem
+Adding debian:Visa_eCommerce_Root.pem
+Adding debian:TDC_OCES_Root_CA.pem
+Adding debian:AddTrust_Qualified_Certificates_Root.pem
+Adding debian:SwissSign_Platinum_CA_-_G2.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:GeoTrust_Primary_Certification_Authority.pem
+Adding debian:Hongkong_Post_Root_CA_1.pem
+Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:WellsSecure_Public_Root_Certificate_Authority.pem
+Adding debian:TC_TrustCenter_Universal_CA_I.pem
+Adding debian:Taiwan_GRCA.pem
+Adding debian:OISTE_WISeKey_Global_Root_GA_CA.pem
+Adding debian:AddTrust_Low-Value_Services_Root.pem
+Adding debian:Thawte_Server_CA.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:Deutsche_Telekom_Root_CA_2.pem
+Adding debian:Staat_der_Nederlanden_Root_CA_-_G2.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:NetLock_Express_=Class_C=_Root.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+Adding debian:Global_Chambersign_Root_-_2008.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:DST_ACES_CA_X6.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G2.pem
+Adding debian:GTE_CyberTrust_Global_Root.pem
+Adding debian:DST_Root_CA_X3.pem
+Adding debian:Entrust.net_Secure_Server_CA.pem
+Adding debian:America_Online_Root_Certification_Authority_2.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G3.pem
+Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.pem
+Adding debian:Digital_Signature_Trust_Co._Global_CA_3.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:Certplus_Class_2_Primary_CA.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:Swisscom_Root_CA_1.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+Adding debian:Firmaprofesional_Root_CA.pem
+Adding debian:AC_Raíz_Certicámara_S.A..pem
+Adding debian:TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem
+Adding debian:Chambers_of_Commerce_Root_-_2008.pem
+Adding debian:Buypass_Class_2_CA_1.pem
+Adding debian:Certinomis_-_Autorité_Racine.pem
+Adding debian:GeoTrust_Global_CA.pem
+Adding debian:IGC_A.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority.pem
+Adding debian:UTN_USERFirst_Email_Root_CA.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:Staat_der_Nederlanden_Root_CA.pem
+Adding debian:cacert.org_class3.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:Comodo_Trusted_Services_root.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:Microsec_e-Szigno_Root_CA.pem
+Adding debian:NetLock_Qualified_=Class_QA=_Root.pem
+Adding debian:ValiCert_Class_2_VA.pem
+Adding debian:RSA_Security_2048_v3.pem
+Adding debian:E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.pem
+Adding debian:Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.pem
+Adding debian:Verisign_Class_1_Public_Primary_Certification_Authority.pem
+Adding debian:Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:Root_CA_Generalitat_Valenciana.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:NetLock_Notary_=Class_A=_Root.pem
+Adding debian:Sonera_Class_1_Root_CA.pem
+Adding debian:ApplicationCA_-_Japanese_Government.pem
+Adding debian:Digital_Signature_Trust_Co._Global_CA_1.pem
+Adding debian:Sonera_Class_2_Root_CA.pem
+Adding debian:AddTrust_External_Root.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+Adding debian:Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:CNNIC_ROOT.pem
+Adding debian:America_Online_Root_Certification_Authority_1.pem
+Adding debian:GlobalSign_Root_CA_-_R2.pem
+Adding debian:thawte_Primary_Root_CA_-_G3.pem
+Adding debian:Network_Solutions_Certificate_Authority.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.pem
+Adding debian:TC_TrustCenter_Universal_CA_III.pem
+Adding debian:GeoTrust_Universal_CA.pem
+Adding debian:ComSign_CA.pem
+Adding debian:thawte_Primary_Root_CA.pem
+Adding debian:GeoTrust_Universal_CA_2.pem
+Adding debian:QuoVadis_Root_CA.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:TURKTRUST_Certificate_Services_Provider_Root_2.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:cert-ec2.pem
+Adding debian:Certum_Root_CA.pem
+Adding debian:Security_Communication_EV_RootCA1.pem
+Adding debian:Juur-SK.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:cacert.org_root.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:StartCom_Certification_Authority.pem
+Adding debian:Buypass_Class_3_CA_1.pem
+Adding debian:Wells_Fargo_Root_CA.pem
+Adding debian:EC-ACC.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:RSA_Root_Certificate_1.pem
+Adding debian:UTN_USERFirst_Hardware_Root_CA.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:spi-cacert-2008.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:UTN_DATACorp_SGC_Root_CA.pem
+Adding debian:EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.pem
+Adding debian:Izenpe.com.pem
+done.
+Processing triggers for libc-bin ...
+Processing triggers for ureadahead ...
+Processing triggers for ca-certificates ...
+Updating certificates in /etc/ssl/certs... 0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d....
+done.
+done.
